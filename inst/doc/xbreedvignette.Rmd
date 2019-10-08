@@ -17,7 +17,8 @@ vignette: >
 
 \let\oldShaded\Shaded
 \let\endoldShaded\endShaded
-\renewenvironment{Shaded}{\small\oldShaded}{\endoldShaded}
+%\renewenvironment{Shaded}{\small\oldShaded}{\endoldShaded}
+\renewenvironment{Shaded}{\small\begin{snugshade}}{\end{snugshade}}
 
 \let\oldverbatim\verbatim
 \let\endoldverbatim\endverbatim
